@@ -1,0 +1,34 @@
+.header_Container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border-bottom: 1px solid rgba(42, 43, 41, 0.1);
+}
+.header {
+  display: flex;
+  height: 100%;
+  margin-left: 4%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_Title {
+  cursor: pointer;
+  font-weight: 400;
+}
+.header_Menu {
+  width: 430px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu_List {
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  align-items: center;
+}
