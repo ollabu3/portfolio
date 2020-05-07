@@ -3,9 +3,9 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header className="header_Container">
-      <div className="header">
-        <h3 className="header_Title">YunJuLee</h3>
+    <header>
+      <div className="header_Container">
+        <h1 className="header_Title">YunJuLee</h1>
         <ul className="header_Menu">
           <li className="menu_List">About</li>
           <li className="menu_List">Skills</li>
