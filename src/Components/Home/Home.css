@@ -1,0 +1,25 @@
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./HomeImg.jpg");
+}
+
+.background_Color {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.58);
+}
+
+section p {
+  z-index: 1000;
+  color: #fff;
+  font-size: 50px;
+  position: relative;
+}
