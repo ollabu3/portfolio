@@ -7,8 +7,9 @@ header {
   position: fixed;
   /* background-color: #fff; */
   border-bottom: 1px solid rgba(42, 43, 41, 0.1);
+  background-color: rgba(0, 0, 0, 0.58);
 }
-.header_Container {
+.header {
   height: 100%;
   display: flex;
   margin-left: 4%;
@@ -16,18 +17,18 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.header_Title {
+.header h1 {
   color: #fff;
   cursor: pointer;
   font-weight: 400;
 }
-.header_Menu {
+.header ul {
   width: 480px;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-.menu_List {
+.header li {
   height: 100%;
   color: #fff;
   display: flex;

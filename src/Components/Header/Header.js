@@ -4,14 +4,14 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <div className="header_Container">
-        <h1 className="header_Title">YunJuLee</h1>
-        <ul className="header_Menu">
-          <li className="menu_List">About</li>
-          <li className="menu_List">Skills</li>
-          <li className="menu_List">Projects</li>
-          <li className="menu_List">Contact</li>
-          <li className="menu_List">Resume</li>
+      <div className="header">
+        <h1>YunJuLee</h1>
+        <ul>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Projects</li>
+          <li>Contact</li>
+          <li>Resume</li>
         </ul>
       </div>
     </header>
