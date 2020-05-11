@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Skills.css";
+import SkillBox from "./Components/SkillBox";
+import { SkillsData } from "./Components/SkillsData";
+
+import { Container, Row, Col } from "react-grid-system";
 
 function Skills() {
-  return <div></div>;
+  const [skillsData] = useState(SkillsData);
+  return (
+    <section className="skills_Section">
+      <div className="skills">
+        <div className="sklls_Title">Skills</div>
+      </div>
+      <Container>
+        <Row>
+          {skillsData.map((list) => (
+            <Col sm={4} key={JSON.stringify(list.id)}>
+              <SkillBox list={list} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </section>
+  );
 }
 
 export default Skills;
+/*
+      <Col sm={4}>One of three columns</Col>
+        <Col sm={4}>One of three columns</Col>
+        <Col sm={4}>One of three columns</Col>
+*/
