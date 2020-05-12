@@ -1,0 +1,14 @@
+.projects_Section {
+  background-color: #ffffff;
+}
+.projects {
+  text-align: center;
+  padding: 40px 0px;
+}
+.projects_Title {
+  font-size: 35px;
+  font-weight: 500;
+}
+.ProjectBox {
+  margin-bottom: 3%;
+}
