@@ -14,4 +14,3 @@ export const ProjectsData = [
     position: "Backend",
   },
 ];
-// 아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a>

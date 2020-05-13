@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-grid-system";
 function Contact() {
   return (
     <section>
-      <div className="contact">
+      <div className="contact" id="e">
         <div className="contact_Title">Contact</div>
         <Container className="Contatner">
           <Row>

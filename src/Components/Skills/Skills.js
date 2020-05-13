@@ -8,7 +8,7 @@ import { Container, Row, Col } from "react-grid-system";
 function Skills() {
   const [skillsData] = useState(SkillsData);
   return (
-    <section className="skills_Section">
+    <section className="skills_Section" id="c">
       <div className="skills">
         <div className="sklls_Title">Skills</div>
       </div>
@@ -26,8 +26,3 @@ function Skills() {
 }
 
 export default Skills;
-/*
-      <Col sm={4}>One of three columns</Col>
-        <Col sm={4}>One of three columns</Col>
-        <Col sm={4}>One of three columns</Col>
-*/

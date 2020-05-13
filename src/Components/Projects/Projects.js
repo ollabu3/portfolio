@@ -7,7 +7,7 @@ function Projects() {
   const [projectsData] = useState(ProjectsData);
 
   return (
-    <section className="projects_Section">
+    <section className="projects_Section" id="d">
       <div className="projects">
         <div className="projects_Title">Projects</div>
       </div>
