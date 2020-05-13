@@ -1,0 +1,12 @@
+.footer_Section {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  background-color: #ffffff;
+}
+.footer_Section div {
+  color: #495057;
+}
+.footer_Section a {
+  color: #495057;
+}
