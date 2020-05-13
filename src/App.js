@@ -3,7 +3,7 @@ import "./App.css";
 
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
-import Greet from "./Components/Greet/Greet";
+import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <Greet />
+      <About />
       <Skills />
       <Projects />
       <Contact />
