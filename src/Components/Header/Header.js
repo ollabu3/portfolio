@@ -47,7 +47,9 @@ function Header() {
           >
             Contact
           </li>
-          <li>Resume</li>
+          <a href="https://drive.google.com/file/d/1EaUUscpTnZ2x0BTZHvNe4jKt4Zp4rjor/view?usp=sharing">
+            <li>Resume</li>
+          </a>
         </ul>
       </div>
     </header>

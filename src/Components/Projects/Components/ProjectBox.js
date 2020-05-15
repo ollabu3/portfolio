@@ -29,7 +29,7 @@ function ProjectBox({ list }) {
 
             {list.name === "MukBank(먹뱅크)" ? (
               <div>
-                <a>
+                <a href="https://github.com/ollabu3/MukBank-client">
                   <img
                     className="logoImg"
                     src={require("./ProjectsImg/github_Logo.png")}
@@ -44,10 +44,12 @@ function ProjectBox({ list }) {
               </div>
             ) : (
               <div>
-                <img
-                  className="logoImg"
-                  src={require("./ProjectsImg/github_Logo.png")}
-                />
+                <a href="https://github.com/ollabu3/Wordmon">
+                  <img
+                    className="logoImg"
+                    src={require("./ProjectsImg/github_Logo.png")}
+                  />
+                </a>
                 <div></div>
               </div>
             )}
