@@ -35,7 +35,7 @@ function ProjectBox({ list }) {
                     src={require("./ProjectsImg/github_Logo.png")}
                   />
                 </a>
-                <a href="https://www.notion.so/3-ToNaEat-MukBank-73a4f6f672fd456683659ab84dc02950">
+                <a href="https://www.notion.so/3-ToNaEat-MukBank-a87f0fa125d14655b4040433da09da56">
                   <img
                     className="logoImg"
                     src={require("./ProjectsImg/notion_Logo.png")}
