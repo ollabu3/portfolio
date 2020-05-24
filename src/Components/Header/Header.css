@@ -37,3 +37,8 @@ header {
   font-weight: 300;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .header ul {
+    visibility: hidden;
+  }
+}
