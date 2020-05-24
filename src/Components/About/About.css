@@ -31,3 +31,14 @@
   margin-right: 8vw;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .about_Container {
+    display: inline;
+  }
+  .about_Text {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+}
