@@ -20,6 +20,7 @@ function Header() {
         </h1>
         <ul>
           <li
+            className="scroll"
             onClick={() => {
               clickToScroll("b", "center");
             }}
@@ -27,6 +28,7 @@ function Header() {
             About
           </li>
           <li
+            className="scroll"
             onClick={() => {
               clickToScroll("c", "center");
             }}
@@ -34,6 +36,7 @@ function Header() {
             Skills
           </li>
           <li
+            className="scroll"
             onClick={() => {
               clickToScroll("d", "center");
             }}
@@ -41,6 +44,7 @@ function Header() {
             Projects
           </li>
           <li
+            className="scroll"
             onClick={() => {
               clickToScroll("e", "start");
             }}
@@ -48,7 +52,7 @@ function Header() {
             Contact
           </li>
           <a href="https://drive.google.com/file/d/1EaUUscpTnZ2x0BTZHvNe4jKt4Zp4rjor/view?usp=sharing">
-            <li>Resume</li>
+            <li className="resume">Resume</li>
           </a>
         </ul>
       </div>
