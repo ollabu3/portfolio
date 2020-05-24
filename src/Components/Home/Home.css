@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
+  -o-background-size: 100%;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("./HomeImg.jpg");
 }
@@ -20,6 +23,6 @@
 .Home_Section p {
   z-index: 900;
   color: #fff;
-  font-size: 60px;
+  font-size: 4vw;
   position: relative;
 }
