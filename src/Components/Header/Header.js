@@ -51,7 +51,7 @@ function Header() {
           >
             Contact
           </li>
-          <a href="https://docs.google.com/document/d/1fjk179Iukkkbwyab2D5JunVieQVy1oFfQC217ML6eMM/edit#heading=h.p2fovhdq0txp">
+          <a href="https://drive.google.com/file/d/1FE3Dc73QPfR2UTWWt_dYQiWYiF5sUBst/view?usp=sharing">
             <li className="resume">Resume</li>
           </a>
         </ul>
